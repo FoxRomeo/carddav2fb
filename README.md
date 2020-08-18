@@ -97,4 +97,4 @@ This script is using third-party libraries for downloading VCards from CardDAV s
 This script is released under Public Domain.
 
 ## Authors
-Copyright (c) 2012-2016 Karl Glatz, Martin Rost, Jens Maus, Johannes Freiburger, Oliver Faßbender
+Copyright (c) 2012-2020 Karl Glatz, Martin Rost, Jens Maus, Johannes Freiburger, Oliver Faßbender
