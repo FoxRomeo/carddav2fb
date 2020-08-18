@@ -1,8 +1,8 @@
 pipeline {
     agent none
-//    triggers {
-//	cron('H H(4-12) * * 3')
-//    }
+    triggers {
+	cron('H H(4-12) * * 3')
+    }
     options {
 	disableResume()
 	timestamps()
@@ -18,7 +18,7 @@ pipeline {
 			label 'arm32v6 && Docker'
 		    }
 		    environment {
-			NAME = "rpi-carddav2fb-dev"
+			NAME = "rpi-carddav2fb"
 			TARGETVERSION = "master"
 			ACTION = "all"
 		    }
@@ -33,7 +33,7 @@ pipeline {
 			label 'x86 && Docker && build-essential'
 		    }
 		    environment {
-			NAME = "carddav2fb-dev"
+			NAME = "carddav2fb"
 			TARGETVERSION = "master"
 			ACTION = "all"
 		    }
