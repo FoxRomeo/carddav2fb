@@ -475,8 +475,8 @@ class CardDAV2FB
                   $type = $conf['fallback_type'];
                 elseif(in_array("voice", $typearr_lower))
                   $type = $conf['fallback_type'];
-//                elseif(in_array("home,voice", $typearr_lower))
-//                  $type = $conf['fallback_type'];
+                elseif(in_array("home,voice", $typearr_lower))
+                  $type = $conf['fallback_type'];
                 else
                   continue;
               }
