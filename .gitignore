@@ -1,2 +1,8 @@
+/composer.lock
 /config.php
 Dockerfile
+/cards.xml
+/vendor/
+php-cs-fixer.config
+config.cron
+cache

@@ -1,0 +1,29 @@
+{
+    "name": "foxromeo/carddav2fb",
+    "description": "Download CardDAV VCards and upload as phonebook to AVM FRITZ!Box",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FoxRomeo",
+            "email": "git@intrepid.de"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "symfony/console": "^4.3|^5.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ringcentral/psr7": "^1.2",
+        "sabre/vobject": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andig\\": "src/",
+            "Test\\": "tests/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8|^9"
+    }
+}
