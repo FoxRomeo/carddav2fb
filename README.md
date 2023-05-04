@@ -1,15 +1,7 @@
 # CardDAV contacts import for AVM FRITZ!Box
 
-<<<<<<< HEAD
 <a href="https://hub.docker.com/r/intrepidde/carddav2fb"><img src="https://img.shields.io/docker/pulls/intrepidde/carddav2fb.svg?style=plastic&logo=appveyor" alt="Docker pulls"/></a> x86<br>
 <a href="https://hub.docker.com/r/intrepidde/rpi-carddav2fb"><img src="https://img.shields.io/docker/pulls/intrepidde/carddav2fb.svg?style=plastic&logo=appveyor" alt="Docker pulls"/></a> RPi<br>
-
-**PREPARING CHANGE RUNUSER FROM USER root TO cron**
-**THIS CHANGES crontab FORMAT (to "normal" crontab user format)**
-
-=======
-[![Build Status](https://travis-ci.org/andig/carddav2fb.svg?branch=master)](https://travis-ci.org/andig/carddav2fb) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BB3W3WH7GVSNW)
->>>>>>> 373167ed94eef8f525fa8c935e13e65ecec1ee37
 
 This is a completely revised version of https://github.com/jens-maus/carddav2fb.
 
