@@ -1,6 +1,11 @@
 # CardDAV contacts import for AVM FRITZ!Box
 
-[![Build Status](https://scrutinizer-ci.com/g/jens-maus/carddav2fb/badges/build.png?b=master)](https://scrutinizer-ci.com/g/jens-maus/carddav2fb/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jens-maus/carddav2fb/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jens-maus/carddav2fb/?branch=master)
+<a href="https://hub.docker.com/r/intrepidde/carddav2fb"><img src="https://img.shields.io/docker/pulls/intrepidde/carddav2fb.svg?style=plastic&logo=appveyor" alt="Docker pulls"/></a> x86<br>
+<a href="https://hub.docker.com/r/intrepidde/rpi-carddav2fb"><img src="https://img.shields.io/docker/pulls/intrepidde/carddav2fb.svg?style=plastic&logo=appveyor" alt="Docker pulls"/></a> RPi<br>
+
+**PREPARING CHANGE RUNUSER FROM USER root TO cron**
+**THIS CHANGES crontab FORMAT (to "normal" crontab user format)**
+
 
 Features:
 
@@ -14,7 +19,7 @@ Features:
 
 ## Requirements
 
-* PHP-version 5.3.6 or higher
+* PHP-version 5.3.6 or higher (docker container are build and running with PHP7.3)
 * PHP-curl module
 * PHP-ftp module
 * PHP-mbstring module
@@ -97,4 +102,4 @@ This script is using third-party libraries for downloading VCards from CardDAV s
 This script is released under Public Domain.
 
 ## Authors
-Copyright (c) 2012-2016 Karl Glatz, Martin Rost, Jens Maus, Johannes Freiburger
+Copyright (c) 2012-2020 Karl Glatz, Martin Rost, Jens Maus, Johannes Freiburger, Oliver Faßbender
