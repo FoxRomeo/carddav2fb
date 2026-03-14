@@ -1,5 +1,6 @@
 FROM <<BASECONTAINER>>
-MAINTAINER docker@intrepid.de
+
+LABEL maintainer="docker@intrepid.de"
 
 # Architecture depending ENV PHP_VERSION provided by Jenkinsfile
 # <<ENV>>
