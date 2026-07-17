@@ -20,7 +20,6 @@ RUN apk --update --upgrade --no-cache add \
       ${PHP_VERSION}-bz2 \
       ${PHP_VERSION}-openssl \
       ${PHP_VERSION}-curl \
-      ${PHP_VERSION}-opcache \
       ${PHP_VERSION}-json \
       ${PHP_VERSION}-ctype \
       ${PHP_VERSION}-fpm \
